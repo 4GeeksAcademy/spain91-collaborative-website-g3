@@ -1,2 +1,32 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<section class="py-5" id="contact">
+    <div class="container bg-white text-dark p-3">
+        <!-- Título y Descripción alineados a la izquierda -->
+        <div class="row">
+            <div class="col-lg-8">
+                <h2 class="fw-bold text-start">Contact</h2>
+                <p class="lead text-start">
+                    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+                </p>
+            </div>
+        </div>
+
+        <!-- Formulario de Contacto -->
+        <form class="mx-auto my-4 p-4" style="max-width: 700px; background-color: #f8f9fa; border: 1px solid #e0e0e0; border-radius: 5px;">
+            <div class="row mb-3 align-items-center">
+                <label for="email" class="col-sm-3 col-form-label text-end fw-bold">Your E-mail</label>
+                <div class="col-sm-9">
+                    <input type="email" class="form-control" id="email" placeholder="Your email">
+                </div>
+            </div>
+            <div class="row mb-3 align-items-center">
+                <label for="message" class="col-sm-3 col-form-label text-end fw-bold">Your message</label>
+                <div class="col-sm-9">
+                    <textarea class="form-control" id="message" rows="3" placeholder="Please enter your message here..."></textarea>
+                </div>
+            </div>
+            <div class="text-end">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</section>
